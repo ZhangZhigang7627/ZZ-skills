@@ -1,0 +1,1374 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>杭州东 → 上海虹桥 列车时刻表</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, "SF Pro Text", "Helvetica Neue", sans-serif; background: #f5f5f7; color: #1d1d1f; }
+  .container { max-width: 1100px; margin: 0 auto; padding: 40px 20px; }
+  header { text-align: center; margin-bottom: 32px; }
+  h1 { font-size: 28px; font-weight: 600; letter-spacing: -0.5px; }
+  h1 .arrow { margin: 0 12px; color: #86868b; font-weight: 300; }
+  .meta { margin-top: 8px; color: #86868b; font-size: 15px; }
+  .meta span + span::before { content: "\00b7"; margin: 0 8px; }
+  .filters { margin-top: 6px; color: #0071e3; font-size: 13px; }
+  .table-wrap { background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+  .empty { padding: 60px 20px; text-align: center; color: #86868b; font-size: 15px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  thead { background: #fafafa; }
+  th { padding: 12px 10px; font-weight: 500; color: #86868b; font-size: 12px; letter-spacing: 0.5px; border-bottom: 1px solid #f0f0f0; white-space: nowrap; }
+  td { padding: 11px 10px; border-bottom: 1px solid #f5f5f5; text-align: center; white-space: nowrap; }
+  tr:last-child td { border-bottom: none; }
+  tr:hover { background: #fafbff; }
+  .train-code { font-weight: 600; text-align: left; padding-left: 16px; }
+  .type-g { color: #0071e3; }
+  .type-d { color: #34c759; }
+  .type-z { color: #af52de; }
+  .type-t { color: #ff9500; }
+  .type-k { color: #86868b; }
+  .time { font-variant-numeric: tabular-nums; }
+  .depart { font-weight: 600; }
+  .arrow { margin: 0 4px; color: #c0c0c0; }
+  .arrive { color: #6e6e73; }
+  .duration { color: #86868b; font-variant-numeric: tabular-nums; }
+  .na { color: #d2d2d7; }
+  .available { color: #34c759; font-weight: 500; }
+  .sold-out { color: #ff3b30; }
+  .count { font-weight: 600; font-variant-numeric: tabular-nums; }
+  .buy-yes { color: #34c759; font-weight: 500; }
+  .buy-no { color: #ff3b30; font-weight: 500; }
+  footer { text-align: center; margin-top: 24px; color: #c0c0c0; font-size: 12px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>杭州东<span class="arrow">→</span>上海虹桥</h1>
+    <div class="meta"><span>2026-03-09</span><span>187 趟列车</span></div>
+    
+  </header>
+  <div class="table-wrap">
+    <table>
+      <thead><tr>
+        <th style="text-align:left;padding-left:16px">车次</th><th>时间</th><th>耗时</th>
+        <th>商务/特等</th><th>一等座</th><th>二等座</th><th>软卧/动卧</th><th>硬卧</th><th>硬座</th><th>无座</th><th>状态</th>
+      </tr></thead>
+      <tbody>
+      <tr>
+        <td class="train-code type-g">G7542</td>
+        <td class="time"><span class="depart">14:05</span><span class="arrow">→</span><span class="arrive">15:11</span></td>
+        <td class="duration">1h06m</td>
+        <td class="available">有</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7514</td>
+        <td class="time"><span class="depart">14:12</span><span class="arrow">→</span><span class="arrive">15:19</span></td>
+        <td class="duration">1h07m</td>
+        <td class="available">有</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G688</td>
+        <td class="time"><span class="depart">14:12</span><span class="arrow">→</span><span class="arrive">15:27</span></td>
+        <td class="duration">1h15m</td>
+        <td class="count">15</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G2590</td>
+        <td class="time"><span class="depart">14:17</span><span class="arrow">→</span><span class="arrive">15:43</span></td>
+        <td class="duration">1h26m</td>
+        <td class="count">18</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G246</td>
+        <td class="time"><span class="depart">14:18</span><span class="arrow">→</span><span class="arrive">15:03</span></td>
+        <td class="duration">45m</td>
+        <td class="sold-out">无</td><td class="sold-out">无</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G204</td>
+        <td class="time"><span class="depart">14:22</span><span class="arrow">→</span><span class="arrive">15:09</span></td>
+        <td class="duration">47m</td>
+        <td class="count">6</td><td class="count">5</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G3758</td>
+        <td class="time"><span class="depart">14:29</span><span class="arrow">→</span><span class="arrive">15:48</span></td>
+        <td class="duration">1h19m</td>
+        <td class="available">有</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-k">K48</td>
+        <td class="time"><span class="depart">14:30</span><span class="arrow">→</span><span class="arrive">16:18</span></td>
+        <td class="duration">1h48m</td>
+        <td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="sold-out">无</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7546</td>
+        <td class="time"><span class="depart">14:30</span><span class="arrow">→</span><span class="arrive">15:20</span></td>
+        <td class="duration">50m</td>
+        <td class="sold-out">无</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7546</td>
+        <td class="time"><span class="depart">14:30</span><span class="arrow">→</span><span class="arrive">15:36</span></td>
+        <td class="duration">1h06m</td>
+        <td class="sold-out">无</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-c">C3056</td>
+        <td class="time"><span class="depart">14:39</span><span class="arrow">→</span><span class="arrive">15:50</span></td>
+        <td class="duration">1h11m</td>
+        <td class="count">12</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7322</td>
+        <td class="time"><span class="depart">14:40</span><span class="arrow">→</span><span class="arrive">15:19</span></td>
+        <td class="duration">39m</td>
+        <td class="count">19</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7322</td>
+        <td class="time"><span class="depart">14:40</span><span class="arrow">→</span><span class="arrive">15:43</span></td>
+        <td class="duration">1h03m</td>
+        <td class="count">17</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G3310</td>
+        <td class="time"><span class="depart">14:44</span><span class="arrow">→</span><span class="arrive">16:45</span></td>
+        <td class="duration">2h01m</td>
+        <td class="count">5</td><td class="count">5</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7308</td>
+        <td class="time"><span class="depart">14:50</span><span class="arrow">→</span><span class="arrive">15:50</span></td>
+        <td class="duration">1h00m</td>
+        <td class="count">3</td><td class="count">5</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-c">C3088</td>
+        <td class="time"><span class="depart">14:50</span><span class="arrow">→</span><span class="arrive">16:02</span></td>
+        <td class="duration">1h12m</td>
+        <td class="count">9</td><td class="count">18</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-c">C3088</td>
+        <td class="time"><span class="depart">14:50</span><span class="arrow">→</span><span class="arrive">16:19</span></td>
+        <td class="duration">1h29m</td>
+        <td class="count">9</td><td class="count">17</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-d">D3142</td>
+        <td class="time"><span class="depart">14:54</span><span class="arrow">→</span><span class="arrive">15:56</span></td>
+        <td class="duration">1h02m</td>
+        <td class="na">—</td><td class="sold-out">无</td><td class="sold-out">无</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="sold-out">无</td>
+        <td class="buy-no">售罄</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1418</td>
+        <td class="time"><span class="depart">15:01</span><span class="arrow">→</span><span class="arrive">16:27</span></td>
+        <td class="duration">1h26m</td>
+        <td class="count">14</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7592</td>
+        <td class="time"><span class="depart">15:07</span><span class="arrow">→</span><span class="arrive">15:50</span></td>
+        <td class="duration">43m</td>
+        <td class="count">2</td><td class="count">2</td><td class="sold-out">无</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7592</td>
+        <td class="time"><span class="depart">15:07</span><span class="arrow">→</span><span class="arrive">16:10</span></td>
+        <td class="duration">1h03m</td>
+        <td class="count">2</td><td class="sold-out">无</td><td class="sold-out">无</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-c">C3634</td>
+        <td class="time"><span class="depart">15:09</span><span class="arrow">→</span><span class="arrive">17:00</span></td>
+        <td class="duration">1h51m</td>
+        <td class="count">1</td><td class="count">13</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-c">C3634</td>
+        <td class="time"><span class="depart">15:09</span><span class="arrow">→</span><span class="arrive">16:42</span></td>
+        <td class="duration">1h33m</td>
+        <td class="count">1</td><td class="count">13</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1348</td>
+        <td class="time"><span class="depart">15:13</span><span class="arrow">→</span><span class="arrive">16:05</span></td>
+        <td class="duration">52m</td>
+        <td class="count">10</td><td class="count">12</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="count">9</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7326</td>
+        <td class="time"><span class="depart">15:24</span><span class="arrow">→</span><span class="arrive">15:56</span></td>
+        <td class="duration">32m</td>
+        <td class="sold-out">无</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7326</td>
+        <td class="time"><span class="depart">15:24</span><span class="arrow">→</span><span class="arrive">16:16</span></td>
+        <td class="duration">52m</td>
+        <td class="sold-out">无</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7560</td>
+        <td class="time"><span class="depart">15:28</span><span class="arrow">→</span><span class="arrive">16:21</span></td>
+        <td class="duration">53m</td>
+        <td class="count">7</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1370</td>
+        <td class="time"><span class="depart">15:33</span><span class="arrow">→</span><span class="arrive">16:25</span></td>
+        <td class="duration">52m</td>
+        <td class="count">13</td><td class="count">4</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7376</td>
+        <td class="time"><span class="depart">15:37</span><span class="arrow">→</span><span class="arrive">16:30</span></td>
+        <td class="duration">53m</td>
+        <td class="count">19</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7318</td>
+        <td class="time"><span class="depart">15:46</span><span class="arrow">→</span><span class="arrive">16:23</span></td>
+        <td class="duration">37m</td>
+        <td class="count">2</td><td class="count">6</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7318</td>
+        <td class="time"><span class="depart">15:46</span><span class="arrow">→</span><span class="arrive">16:43</span></td>
+        <td class="duration">57m</td>
+        <td class="count">2</td><td class="count">4</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7318</td>
+        <td class="time"><span class="depart">15:46</span><span class="arrow">→</span><span class="arrive">17:19</span></td>
+        <td class="duration">1h33m</td>
+        <td class="count">1</td><td class="count">3</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G2176</td>
+        <td class="time"><span class="depart">15:49</span><span class="arrow">→</span><span class="arrive">16:57</span></td>
+        <td class="duration">1h08m</td>
+        <td class="count">13</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-y">Y702</td>
+        <td class="time"><span class="depart">15:52</span><span class="arrow">→</span><span class="arrive">17:44</span></td>
+        <td class="duration">1h52m</td>
+        <td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td><td class="na">—</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-y">Y702</td>
+        <td class="time"><span class="depart">15:52</span><span class="arrow">→</span><span class="arrive">18:33</span></td>
+        <td class="duration">2h41m</td>
+        <td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td><td class="na">—</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-c">C2376</td>
+        <td class="time"><span class="depart">15:52</span><span class="arrow">→</span><span class="arrive">16:58</span></td>
+        <td class="duration">1h06m</td>
+        <td class="count">9</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-c">C2376</td>
+        <td class="time"><span class="depart">15:52</span><span class="arrow">→</span><span class="arrive">17:27</span></td>
+        <td class="duration">1h35m</td>
+        <td class="count">9</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G2142</td>
+        <td class="time"><span class="depart">15:54</span><span class="arrow">→</span><span class="arrive">17:03</span></td>
+        <td class="duration">1h09m</td>
+        <td class="count">18</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G258</td>
+        <td class="time"><span class="depart">15:59</span><span class="arrow">→</span><span class="arrive">16:47</span></td>
+        <td class="duration">48m</td>
+        <td class="count">6</td><td class="sold-out">无</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G228</td>
+        <td class="time"><span class="depart">16:03</span><span class="arrow">→</span><span class="arrive">16:50</span></td>
+        <td class="duration">47m</td>
+        <td class="count">12</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G3068</td>
+        <td class="time"><span class="depart">16:03</span><span class="arrow">→</span><span class="arrive">17:20</span></td>
+        <td class="duration">1h17m</td>
+        <td class="count">16</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G242</td>
+        <td class="time"><span class="depart">16:07</span><span class="arrow">→</span><span class="arrive">16:54</span></td>
+        <td class="duration">47m</td>
+        <td class="count">8</td><td class="count">14</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7518</td>
+        <td class="time"><span class="depart">16:19</span><span class="arrow">→</span><span class="arrive">17:12</span></td>
+        <td class="duration">53m</td>
+        <td class="count">17</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7518</td>
+        <td class="time"><span class="depart">16:19</span><span class="arrow">→</span><span class="arrive">17:29</span></td>
+        <td class="duration">1h10m</td>
+        <td class="count">17</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1636</td>
+        <td class="time"><span class="depart">16:25</span><span class="arrow">→</span><span class="arrive">17:19</span></td>
+        <td class="duration">54m</td>
+        <td class="count">19</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1520</td>
+        <td class="time"><span class="depart">16:25</span><span class="arrow">→</span><span class="arrive">17:37</span></td>
+        <td class="duration">1h12m</td>
+        <td class="count">19</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1520</td>
+        <td class="time"><span class="depart">16:25</span><span class="arrow">→</span><span class="arrive">17:56</span></td>
+        <td class="duration">1h31m</td>
+        <td class="count">19</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1674</td>
+        <td class="time"><span class="depart">16:29</span><span class="arrow">→</span><span class="arrive">17:34</span></td>
+        <td class="duration">1h05m</td>
+        <td class="count">11</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1674</td>
+        <td class="time"><span class="depart">16:29</span><span class="arrow">→</span><span class="arrive">18:00</span></td>
+        <td class="duration">1h31m</td>
+        <td class="count">11</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1384</td>
+        <td class="time"><span class="depart">16:34</span><span class="arrow">→</span><span class="arrive">17:20</span></td>
+        <td class="duration">46m</td>
+        <td class="count">15</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1384</td>
+        <td class="time"><span class="depart">16:34</span><span class="arrow">→</span><span class="arrive">17:40</span></td>
+        <td class="duration">1h06m</td>
+        <td class="count">15</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-d">D126</td>
+        <td class="time"><span class="depart">16:37</span><span class="arrow">→</span><span class="arrive">18:03</span></td>
+        <td class="duration">1h26m</td>
+        <td class="na">—</td><td class="na">—</td><td class="count">1</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G8362</td>
+        <td class="time"><span class="depart">16:41</span><span class="arrow">→</span><span class="arrive">17:43</span></td>
+        <td class="duration">1h02m</td>
+        <td class="count">8</td><td class="count">10</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G8362</td>
+        <td class="time"><span class="depart">16:41</span><span class="arrow">→</span><span class="arrive">18:07</span></td>
+        <td class="duration">1h26m</td>
+        <td class="count">8</td><td class="count">10</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7336</td>
+        <td class="time"><span class="depart">16:43</span><span class="arrow">→</span><span class="arrive">17:46</span></td>
+        <td class="duration">1h03m</td>
+        <td class="count">7</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1674</td>
+        <td class="time"><span class="depart">16:45</span><span class="arrow">→</span><span class="arrive">17:34</span></td>
+        <td class="duration">49m</td>
+        <td class="count">14</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1674</td>
+        <td class="time"><span class="depart">16:45</span><span class="arrow">→</span><span class="arrive">18:00</span></td>
+        <td class="duration">1h15m</td>
+        <td class="count">13</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G8380</td>
+        <td class="time"><span class="depart">16:46</span><span class="arrow">→</span><span class="arrive">18:12</span></td>
+        <td class="duration">1h26m</td>
+        <td class="count">6</td><td class="count">12</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7792</td>
+        <td class="time"><span class="depart">16:54</span><span class="arrow">→</span><span class="arrive">17:56</span></td>
+        <td class="duration">1h02m</td>
+        <td class="count">8</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7792</td>
+        <td class="time"><span class="depart">16:54</span><span class="arrow">→</span><span class="arrive">18:14</span></td>
+        <td class="duration">1h20m</td>
+        <td class="count">7</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7336</td>
+        <td class="time"><span class="depart">16:58</span><span class="arrow">→</span><span class="arrive">17:46</span></td>
+        <td class="duration">48m</td>
+        <td class="count">7</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-d">D3292</td>
+        <td class="time"><span class="depart">16:59</span><span class="arrow">→</span><span class="arrive">17:57</span></td>
+        <td class="duration">58m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-d">D3292</td>
+        <td class="time"><span class="depart">16:59</span><span class="arrow">→</span><span class="arrive">18:18</span></td>
+        <td class="duration">1h19m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7192</td>
+        <td class="time"><span class="depart">17:02</span><span class="arrow">→</span><span class="arrive">17:54</span></td>
+        <td class="duration">52m</td>
+        <td class="count">20</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7792</td>
+        <td class="time"><span class="depart">17:06</span><span class="arrow">→</span><span class="arrive">17:56</span></td>
+        <td class="duration">50m</td>
+        <td class="count">9</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7792</td>
+        <td class="time"><span class="depart">17:06</span><span class="arrow">→</span><span class="arrive">18:14</span></td>
+        <td class="duration">1h08m</td>
+        <td class="count">8</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-c">C2404</td>
+        <td class="time"><span class="depart">17:07</span><span class="arrow">→</span><span class="arrive">18:43</span></td>
+        <td class="duration">1h36m</td>
+        <td class="count">11</td><td class="count">19</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-k">K4178</td>
+        <td class="time"><span class="depart">17:10</span><span class="arrow">→</span><span class="arrive">19:19</span></td>
+        <td class="duration">2h09m</td>
+        <td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="count">2</td><td class="available">有</td><td class="available">有</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-d">D18</td>
+        <td class="time"><span class="depart">17:10</span><span class="arrow">→</span><span class="arrive">18:36</span></td>
+        <td class="duration">1h26m</td>
+        <td class="na">—</td><td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-d">D3292</td>
+        <td class="time"><span class="depart">17:11</span><span class="arrow">→</span><span class="arrive">17:57</span></td>
+        <td class="duration">46m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-d">D3292</td>
+        <td class="time"><span class="depart">17:11</span><span class="arrow">→</span><span class="arrive">18:18</span></td>
+        <td class="duration">1h07m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-d">D3126</td>
+        <td class="time"><span class="depart">17:17</span><span class="arrow">→</span><span class="arrive">18:44</span></td>
+        <td class="duration">1h27m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7520</td>
+        <td class="time"><span class="depart">17:20</span><span class="arrow">→</span><span class="arrive">18:29</span></td>
+        <td class="duration">1h09m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G8388</td>
+        <td class="time"><span class="depart">17:24</span><span class="arrow">→</span><span class="arrive">18:31</span></td>
+        <td class="duration">1h07m</td>
+        <td class="na">—</td><td class="count">20</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-k">K4418</td>
+        <td class="time"><span class="depart">17:27</span><span class="arrow">→</span><span class="arrive">19:54</span></td>
+        <td class="duration">2h27m</td>
+        <td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-d">D3126</td>
+        <td class="time"><span class="depart">17:30</span><span class="arrow">→</span><span class="arrive">18:44</span></td>
+        <td class="duration">1h14m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G8364</td>
+        <td class="time"><span class="depart">17:33</span><span class="arrow">→</span><span class="arrive">18:33</span></td>
+        <td class="duration">1h00m</td>
+        <td class="count">5</td><td class="count">4</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G8364</td>
+        <td class="time"><span class="depart">17:33</span><span class="arrow">→</span><span class="arrive">18:53</span></td>
+        <td class="duration">1h20m</td>
+        <td class="count">5</td><td class="count">3</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G238</td>
+        <td class="time"><span class="depart">17:37</span><span class="arrow">→</span><span class="arrive">18:22</span></td>
+        <td class="duration">45m</td>
+        <td class="count">4</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7590</td>
+        <td class="time"><span class="depart">17:40</span><span class="arrow">→</span><span class="arrive">18:19</span></td>
+        <td class="duration">39m</td>
+        <td class="available">有</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7590</td>
+        <td class="time"><span class="depart">17:40</span><span class="arrow">→</span><span class="arrive">18:39</span></td>
+        <td class="duration">59m</td>
+        <td class="available">有</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-z">Z282</td>
+        <td class="time"><span class="depart">17:40</span><span class="arrow">→</span><span class="arrive">19:11</span></td>
+        <td class="duration">1h31m</td>
+        <td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="count">14</td><td class="available">有</td><td class="sold-out">无</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-d">D2284</td>
+        <td class="time"><span class="depart">17:45</span><span class="arrow">→</span><span class="arrive">19:08</span></td>
+        <td class="duration">1h23m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7310</td>
+        <td class="time"><span class="depart">17:47</span><span class="arrow">→</span><span class="arrive">18:37</span></td>
+        <td class="duration">50m</td>
+        <td class="count">16</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7310</td>
+        <td class="time"><span class="depart">17:47</span><span class="arrow">→</span><span class="arrive">18:54</span></td>
+        <td class="duration">1h07m</td>
+        <td class="count">16</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7584</td>
+        <td class="time"><span class="depart">17:51</span><span class="arrow">→</span><span class="arrive">18:37</span></td>
+        <td class="duration">46m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7584</td>
+        <td class="time"><span class="depart">17:51</span><span class="arrow">→</span><span class="arrive">18:48</span></td>
+        <td class="duration">57m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7584</td>
+        <td class="time"><span class="depart">17:51</span><span class="arrow">→</span><span class="arrive">19:10</span></td>
+        <td class="duration">1h19m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-k">K336</td>
+        <td class="time"><span class="depart">17:55</span><span class="arrow">→</span><span class="arrive">20:09</span></td>
+        <td class="duration">2h14m</td>
+        <td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="count">16</td><td class="available">有</td><td class="sold-out">无</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7432</td>
+        <td class="time"><span class="depart">17:55</span><span class="arrow">→</span><span class="arrive">19:13</span></td>
+        <td class="duration">1h18m</td>
+        <td class="count">5</td><td class="count">10</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1510</td>
+        <td class="time"><span class="depart">18:01</span><span class="arrow">→</span><span class="arrive">19:03</span></td>
+        <td class="duration">1h02m</td>
+        <td class="count">9</td><td class="count">10</td><td class="count">9</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G9242</td>
+        <td class="time"><span class="depart">18:03</span><span class="arrow">→</span><span class="arrive">19:24</span></td>
+        <td class="duration">1h21m</td>
+        <td class="count">8</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-c">C412</td>
+        <td class="time"><span class="depart">18:06</span><span class="arrow">→</span><span class="arrive">20:09</span></td>
+        <td class="duration">2h03m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-c">C412</td>
+        <td class="time"><span class="depart">18:06</span><span class="arrow">→</span><span class="arrive">19:42</span></td>
+        <td class="duration">1h36m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7432</td>
+        <td class="time"><span class="depart">18:07</span><span class="arrow">→</span><span class="arrive">19:13</span></td>
+        <td class="duration">1h06m</td>
+        <td class="count">6</td><td class="count">10</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G8358</td>
+        <td class="time"><span class="depart">18:11</span><span class="arrow">→</span><span class="arrive">19:38</span></td>
+        <td class="duration">1h27m</td>
+        <td class="count">10</td><td class="count">20</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1378</td>
+        <td class="time"><span class="depart">18:19</span><span class="arrow">→</span><span class="arrive">19:18</span></td>
+        <td class="duration">59m</td>
+        <td class="count">13</td><td class="count">11</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-c">C412</td>
+        <td class="time"><span class="depart">18:21</span><span class="arrow">→</span><span class="arrive">20:09</span></td>
+        <td class="duration">1h48m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-c">C412</td>
+        <td class="time"><span class="depart">18:21</span><span class="arrow">→</span><span class="arrive">19:42</span></td>
+        <td class="duration">1h21m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G8386</td>
+        <td class="time"><span class="depart">18:25</span><span class="arrow">→</span><span class="arrive">19:48</span></td>
+        <td class="duration">1h23m</td>
+        <td class="count">7</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1616</td>
+        <td class="time"><span class="depart">18:29</span><span class="arrow">→</span><span class="arrive">19:21</span></td>
+        <td class="duration">52m</td>
+        <td class="count">16</td><td class="count">20</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G902</td>
+        <td class="time"><span class="depart">18:31</span><span class="arrow">→</span><span class="arrive">19:43</span></td>
+        <td class="duration">1h12m</td>
+        <td class="count">9</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="na">—</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7522</td>
+        <td class="time"><span class="depart">18:34</span><span class="arrow">→</span><span class="arrive">19:25</span></td>
+        <td class="duration">51m</td>
+        <td class="count">17</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7522</td>
+        <td class="time"><span class="depart">18:34</span><span class="arrow">→</span><span class="arrive">19:41</span></td>
+        <td class="duration">1h07m</td>
+        <td class="count">17</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7550</td>
+        <td class="time"><span class="depart">18:35</span><span class="arrow">→</span><span class="arrive">19:24</span></td>
+        <td class="duration">49m</td>
+        <td class="count">2</td><td class="count">4</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7550</td>
+        <td class="time"><span class="depart">18:35</span><span class="arrow">→</span><span class="arrive">19:47</span></td>
+        <td class="duration">1h12m</td>
+        <td class="count">2</td><td class="count">3</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G3380</td>
+        <td class="time"><span class="depart">18:38</span><span class="arrow">→</span><span class="arrive">20:01</span></td>
+        <td class="duration">1h23m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G248</td>
+        <td class="time"><span class="depart">18:40</span><span class="arrow">→</span><span class="arrive">19:25</span></td>
+        <td class="duration">45m</td>
+        <td class="count">11</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G264</td>
+        <td class="time"><span class="depart">18:45</span><span class="arrow">→</span><span class="arrive">19:30</span></td>
+        <td class="duration">45m</td>
+        <td class="count">12</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-d">D3206</td>
+        <td class="time"><span class="depart">18:50</span><span class="arrow">→</span><span class="arrive">20:21</span></td>
+        <td class="duration">1h31m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-k">K4086</td>
+        <td class="time"><span class="depart">18:52</span><span class="arrow">→</span><span class="arrive">21:53</span></td>
+        <td class="duration">3h01m</td>
+        <td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="available">有</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7550</td>
+        <td class="time"><span class="depart">18:52</span><span class="arrow">→</span><span class="arrive">19:24</span></td>
+        <td class="duration">32m</td>
+        <td class="count">2</td><td class="count">8</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7550</td>
+        <td class="time"><span class="depart">18:52</span><span class="arrow">→</span><span class="arrive">19:47</span></td>
+        <td class="duration">55m</td>
+        <td class="count">2</td><td class="count">7</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1386</td>
+        <td class="time"><span class="depart">19:01</span><span class="arrow">→</span><span class="arrive">19:47</span></td>
+        <td class="duration">46m</td>
+        <td class="available">有</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7588</td>
+        <td class="time"><span class="depart">19:05</span><span class="arrow">→</span><span class="arrive">19:59</span></td>
+        <td class="duration">54m</td>
+        <td class="na">—</td><td class="count">4</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-c">C406</td>
+        <td class="time"><span class="depart">19:06</span><span class="arrow">→</span><span class="arrive">20:52</span></td>
+        <td class="duration">1h46m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7566</td>
+        <td class="time"><span class="depart">19:09</span><span class="arrow">→</span><span class="arrive">20:02</span></td>
+        <td class="duration">53m</td>
+        <td class="count">6</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-d">D3132</td>
+        <td class="time"><span class="depart">19:13</span><span class="arrow">→</span><span class="arrive">20:32</span></td>
+        <td class="duration">1h19m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G8360</td>
+        <td class="time"><span class="depart">19:15</span><span class="arrow">→</span><span class="arrive">20:27</span></td>
+        <td class="duration">1h12m</td>
+        <td class="count">8</td><td class="count">19</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7314</td>
+        <td class="time"><span class="depart">19:18</span><span class="arrow">→</span><span class="arrive">20:27</span></td>
+        <td class="duration">1h09m</td>
+        <td class="count">6</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7312</td>
+        <td class="time"><span class="depart">19:24</span><span class="arrow">→</span><span class="arrive">20:10</span></td>
+        <td class="duration">46m</td>
+        <td class="count">9</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-d">D2290</td>
+        <td class="time"><span class="depart">19:26</span><span class="arrow">→</span><span class="arrive">20:42</span></td>
+        <td class="duration">1h16m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G260</td>
+        <td class="time"><span class="depart">19:30</span><span class="arrow">→</span><span class="arrive">20:16</span></td>
+        <td class="duration">46m</td>
+        <td class="count">7</td><td class="count">13</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G202</td>
+        <td class="time"><span class="depart">19:34</span><span class="arrow">→</span><span class="arrive">20:20</span></td>
+        <td class="duration">46m</td>
+        <td class="count">14</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7600</td>
+        <td class="time"><span class="depart">19:34</span><span class="arrow">→</span><span class="arrive">20:33</span></td>
+        <td class="duration">59m</td>
+        <td class="count">18</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7600</td>
+        <td class="time"><span class="depart">19:34</span><span class="arrow">→</span><span class="arrive">20:50</span></td>
+        <td class="duration">1h16m</td>
+        <td class="count">18</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-c">C3050</td>
+        <td class="time"><span class="depart">19:34</span><span class="arrow">→</span><span class="arrive">20:58</span></td>
+        <td class="duration">1h24m</td>
+        <td class="count">10</td><td class="count">13</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-d">D12</td>
+        <td class="time"><span class="depart">19:36</span><span class="arrow">→</span><span class="arrive">21:08</span></td>
+        <td class="duration">1h32m</td>
+        <td class="na">—</td><td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7562</td>
+        <td class="time"><span class="depart">19:38</span><span class="arrow">→</span><span class="arrive">20:23</span></td>
+        <td class="duration">45m</td>
+        <td class="available">有</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-c">C482</td>
+        <td class="time"><span class="depart">19:42</span><span class="arrow">→</span><span class="arrive">21:20</span></td>
+        <td class="duration">1h38m</td>
+        <td class="count">6</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-d">D2290</td>
+        <td class="time"><span class="depart">19:44</span><span class="arrow">→</span><span class="arrive">20:42</span></td>
+        <td class="duration">58m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7600</td>
+        <td class="time"><span class="depart">19:49</span><span class="arrow">→</span><span class="arrive">20:33</span></td>
+        <td class="duration">44m</td>
+        <td class="count">18</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7600</td>
+        <td class="time"><span class="depart">19:49</span><span class="arrow">→</span><span class="arrive">20:50</span></td>
+        <td class="duration">1h01m</td>
+        <td class="count">18</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-d">D182</td>
+        <td class="time"><span class="depart">19:50</span><span class="arrow">→</span><span class="arrive">21:16</span></td>
+        <td class="duration">1h26m</td>
+        <td class="na">—</td><td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="count">17</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1334</td>
+        <td class="time"><span class="depart">19:57</span><span class="arrow">→</span><span class="arrive">20:36</span></td>
+        <td class="duration">39m</td>
+        <td class="count">13</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1334</td>
+        <td class="time"><span class="depart">19:57</span><span class="arrow">→</span><span class="arrive">20:56</span></td>
+        <td class="duration">59m</td>
+        <td class="count">13</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1668</td>
+        <td class="time"><span class="depart">19:59</span><span class="arrow">→</span><span class="arrive">21:11</span></td>
+        <td class="duration">1h12m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7360</td>
+        <td class="time"><span class="depart">20:00</span><span class="arrow">→</span><span class="arrive">21:00</span></td>
+        <td class="duration">1h00m</td>
+        <td class="count">8</td><td class="count">14</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7360</td>
+        <td class="time"><span class="depart">20:00</span><span class="arrow">→</span><span class="arrive">21:23</span></td>
+        <td class="duration">1h23m</td>
+        <td class="count">8</td><td class="count">13</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7360</td>
+        <td class="time"><span class="depart">20:00</span><span class="arrow">→</span><span class="arrive">21:39</span></td>
+        <td class="duration">1h39m</td>
+        <td class="count">8</td><td class="count">13</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-d">D2282</td>
+        <td class="time"><span class="depart">20:02</span><span class="arrow">→</span><span class="arrive">21:16</span></td>
+        <td class="duration">1h14m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-d">D62</td>
+        <td class="time"><span class="depart">20:06</span><span class="arrow">→</span><span class="arrive">21:33</span></td>
+        <td class="duration">1h27m</td>
+        <td class="na">—</td><td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G3060</td>
+        <td class="time"><span class="depart">20:10</span><span class="arrow">→</span><span class="arrive">21:03</span></td>
+        <td class="duration">53m</td>
+        <td class="available">有</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7112</td>
+        <td class="time"><span class="depart">20:12</span><span class="arrow">→</span><span class="arrive">21:31</span></td>
+        <td class="duration">1h19m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7366</td>
+        <td class="time"><span class="depart">20:14</span><span class="arrow">→</span><span class="arrive">21:11</span></td>
+        <td class="duration">57m</td>
+        <td class="available">有</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-d">D378</td>
+        <td class="time"><span class="depart">20:17</span><span class="arrow">→</span><span class="arrive">21:48</span></td>
+        <td class="duration">1h31m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-d">D3202</td>
+        <td class="time"><span class="depart">20:21</span><span class="arrow">→</span><span class="arrive">21:08</span></td>
+        <td class="duration">47m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-d">D3202</td>
+        <td class="time"><span class="depart">20:21</span><span class="arrow">→</span><span class="arrive">21:24</span></td>
+        <td class="duration">1h03m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7338</td>
+        <td class="time"><span class="depart">20:25</span><span class="arrow">→</span><span class="arrive">21:07</span></td>
+        <td class="duration">42m</td>
+        <td class="count">10</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7338</td>
+        <td class="time"><span class="depart">20:25</span><span class="arrow">→</span><span class="arrive">21:27</span></td>
+        <td class="duration">1h02m</td>
+        <td class="count">10</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1328</td>
+        <td class="time"><span class="depart">20:35</span><span class="arrow">→</span><span class="arrive">21:30</span></td>
+        <td class="duration">55m</td>
+        <td class="count">17</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1416</td>
+        <td class="time"><span class="depart">20:35</span><span class="arrow">→</span><span class="arrive">21:53</span></td>
+        <td class="duration">1h18m</td>
+        <td class="count">8</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7350</td>
+        <td class="time"><span class="depart">20:40</span><span class="arrow">→</span><span class="arrive">21:35</span></td>
+        <td class="duration">55m</td>
+        <td class="count">8</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G3092</td>
+        <td class="time"><span class="depart">20:40</span><span class="arrow">→</span><span class="arrive">21:59</span></td>
+        <td class="duration">1h19m</td>
+        <td class="count">4</td><td class="count">18</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-d">D3146</td>
+        <td class="time"><span class="depart">20:46</span><span class="arrow">→</span><span class="arrive">21:42</span></td>
+        <td class="duration">56m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-k">K4952</td>
+        <td class="time"><span class="depart">20:47</span><span class="arrow">→</span><span class="arrive">23:32</span></td>
+        <td class="duration">2h45m</td>
+        <td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="available">有</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1302</td>
+        <td class="time"><span class="depart">20:50</span><span class="arrow">→</span><span class="arrive">21:47</span></td>
+        <td class="duration">57m</td>
+        <td class="count">20</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-k">K834</td>
+        <td class="time"><span class="depart">20:54</span><span class="arrow">→</span><span class="arrive">22:51</span></td>
+        <td class="duration">1h57m</td>
+        <td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="count">20</td><td class="available">有</td><td class="available">有</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7340</td>
+        <td class="time"><span class="depart">20:54</span><span class="arrow">→</span><span class="arrive">21:50</span></td>
+        <td class="duration">56m</td>
+        <td class="count">17</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1440</td>
+        <td class="time"><span class="depart">20:55</span><span class="arrow">→</span><span class="arrive">22:21</span></td>
+        <td class="duration">1h26m</td>
+        <td class="count">16</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1316</td>
+        <td class="time"><span class="depart">21:01</span><span class="arrow">→</span><span class="arrive">22:04</span></td>
+        <td class="duration">1h03m</td>
+        <td class="count">7</td><td class="count">19</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1372</td>
+        <td class="time"><span class="depart">21:02</span><span class="arrow">→</span><span class="arrive">22:12</span></td>
+        <td class="duration">1h10m</td>
+        <td class="count">16</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="sold-out">无</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G254</td>
+        <td class="time"><span class="depart">21:07</span><span class="arrow">→</span><span class="arrive">21:54</span></td>
+        <td class="duration">47m</td>
+        <td class="count">12</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-d">D2424</td>
+        <td class="time"><span class="depart">21:08</span><span class="arrow">→</span><span class="arrive">22:26</span></td>
+        <td class="duration">1h18m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G220</td>
+        <td class="time"><span class="depart">21:11</span><span class="arrow">→</span><span class="arrive">21:57</span></td>
+        <td class="duration">46m</td>
+        <td class="count">19</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G3078</td>
+        <td class="time"><span class="depart">21:12</span><span class="arrow">→</span><span class="arrive">22:26</span></td>
+        <td class="duration">1h14m</td>
+        <td class="count">10</td><td class="count">8</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="count">18</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G206</td>
+        <td class="time"><span class="depart">21:16</span><span class="arrow">→</span><span class="arrive">22:01</span></td>
+        <td class="duration">45m</td>
+        <td class="available">有</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-d">D2424</td>
+        <td class="time"><span class="depart">21:22</span><span class="arrow">→</span><span class="arrive">22:26</span></td>
+        <td class="duration">1h04m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G998</td>
+        <td class="time"><span class="depart">21:24</span><span class="arrow">→</span><span class="arrive">22:27</span></td>
+        <td class="duration">1h03m</td>
+        <td class="count">12</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7528</td>
+        <td class="time"><span class="depart">21:27</span><span class="arrow">→</span><span class="arrive">22:21</span></td>
+        <td class="duration">54m</td>
+        <td class="count">5</td><td class="count">4</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G2190</td>
+        <td class="time"><span class="depart">21:35</span><span class="arrow">→</span><span class="arrive">22:30</span></td>
+        <td class="duration">55m</td>
+        <td class="count">19</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1306</td>
+        <td class="time"><span class="depart">21:39</span><span class="arrow">→</span><span class="arrive">22:49</span></td>
+        <td class="duration">1h10m</td>
+        <td class="count">9</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-d">D3108</td>
+        <td class="time"><span class="depart">21:41</span><span class="arrow">→</span><span class="arrive">22:53</span></td>
+        <td class="duration">1h12m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1638</td>
+        <td class="time"><span class="depart">21:45</span><span class="arrow">→</span><span class="arrive">22:40</span></td>
+        <td class="duration">55m</td>
+        <td class="count">11</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-d">D172</td>
+        <td class="time"><span class="depart">21:47</span><span class="arrow">→</span><span class="arrive">23:18</span></td>
+        <td class="duration">1h31m</td>
+        <td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1388</td>
+        <td class="time"><span class="depart">21:49</span><span class="arrow">→</span><span class="arrive">22:48</span></td>
+        <td class="duration">59m</td>
+        <td class="count">12</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-k">K4634</td>
+        <td class="time"><span class="depart">21:52</span><span class="arrow">→</span><span class="arrive">23:51</span></td>
+        <td class="duration">1h59m</td>
+        <td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="available">有</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1506</td>
+        <td class="time"><span class="depart">21:52</span><span class="arrow">→</span><span class="arrive">22:55</span></td>
+        <td class="duration">1h03m</td>
+        <td class="count">20</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G252</td>
+        <td class="time"><span class="depart">21:58</span><span class="arrow">→</span><span class="arrive">22:43</span></td>
+        <td class="duration">45m</td>
+        <td class="available">有</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1350</td>
+        <td class="time"><span class="depart">22:02</span><span class="arrow">→</span><span class="arrive">23:01</span></td>
+        <td class="duration">59m</td>
+        <td class="available">有</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G208</td>
+        <td class="time"><span class="depart">22:19</span><span class="arrow">→</span><span class="arrive">23:04</span></td>
+        <td class="duration">45m</td>
+        <td class="count">10</td><td class="count">15</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G7536</td>
+        <td class="time"><span class="depart">22:22</span><span class="arrow">→</span><span class="arrive">23:14</span></td>
+        <td class="duration">52m</td>
+        <td class="count">8</td><td class="count">17</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1374</td>
+        <td class="time"><span class="depart">22:30</span><span class="arrow">→</span><span class="arrive">23:22</span></td>
+        <td class="duration">52m</td>
+        <td class="available">有</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1472</td>
+        <td class="time"><span class="depart">22:34</span><span class="arrow">→</span><span class="arrive">23:29</span></td>
+        <td class="duration">55m</td>
+        <td class="count">20</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G1640</td>
+        <td class="time"><span class="depart">22:45</span><span class="arrow">→</span><span class="arrive">23:32</span></td>
+        <td class="duration">47m</td>
+        <td class="available">有</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-g">G4022</td>
+        <td class="time"><span class="depart">23:16</span><span class="arrow">→</span><span class="arrive">00:01</span></td>
+        <td class="duration">45m</td>
+        <td class="count">20</td><td class="available">有</td><td class="available">有</td><td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      <tr>
+        <td class="train-code type-k">K4352</td>
+        <td class="time"><span class="depart">23:49</span><span class="arrow">→</span><span class="arrive">01:42</span></td>
+        <td class="duration">1h53m</td>
+        <td class="na">—</td><td class="na">—</td><td class="na">—</td><td class="available">有</td><td class="available">有</td><td class="available">有</td><td class="available">有</td>
+        <td class="buy-yes">可购</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <footer>数据来源 12306 · 2026/3/9 13:57:33</footer>
+</div>
+</body>
+</html>

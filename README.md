@@ -1,58 +1,55 @@
-# OpenClaw 办公技能集
+# OpenClaw 技能集
 
-本项目包含适用于 OpenClaw 的办公文档处理技能集。
+本项目包含适用于 OpenClaw 的各种技能。
 
-## 已安装的 Skills
+## 目录
 
-| Skill | 功能 | 文件 |
-|-------|------|------|
-| docx | Word 文档创建、编辑、转换 | docx/SKILL.md |
-| pptx | PPT 演示文稿制作 | pptx/SKILL.md |
-| pdf | PDF 读取、转换、编辑 | pdf/SKILL.md |
-| xlsx | Excel 表格处理、数据分析 | xlsx/SKILL.md |
+### 出行
+- `12306` - 中国铁路12306火车票查询
+- `amadeus-flights` - 国际机票查询
+- `flights-search-plus` - 航班搜索
+- `qunar-travel-query` - 去哪儿网旅游查询
 
-## 安装方法
+### AI/媒体
+- `ai-headline-daily` - 每日科技新闻
+- `ai-news-collectors` - AI新闻聚合
+- `baoyu-skills` - 宝鱼技能
+- `baoyu-slide-deck` - 宝鱼幻灯片生成
+- `nano-banana-pro` - Gemini图片生成
 
-将 SKILL.md 文件复制到 OpenClaw 的 skills 目录：
+### 文档处理
+- `docx` - Word文档处理
+- `pptx` - PPT演示文稿制作
+- `pdf` - PDF处理
+- `xlsx` - Excel表格处理
+- `markdown-converter` - Markdown转换
+
+### 视频/音频
+- `transcript` - YouTube字幕获取
+- `vsum` - 视频总结
+- `youtube-summarizer` - YouTube视频摘要
+
+### 其他
+- `defuddle-obsidian` - 网页内容提取
+- `ppt-generator` - PPT生成器
+
+## 安装
+
+将需要的技能目录复制到 OpenClaw 的 skills 目录：
 
 ```bash
 cp -r docx ~/.openclaw/workspace/skills/
 cp -r pptx ~/.openclaw/workspace/skills/
-cp -r pdf ~/.openclaw/workspace/skills/
-cp -r xlsx ~/.openclaw/workspace/skills/
+# 其他技能同理
 ```
 
-## 使用方法
+## 使用
 
-### Word 文档
-- 触发词：Word、docx、文档
-- 示例："把这个内容生成Word"
+各种技能的触发词和使用方法，请参考各自目录下的 SKILL.md 文件。
 
-### PPT 演示
-- 触发词：PPT、slides、presentation、deck
-- 示例："做一个PPT"
+## 更新日志
 
-### PDF 处理
-- 触发词：PDF、pdf
-- 示例："提取这个PDF的内容"
-
-### Excel 表格
-- 触发词：Excel、xlsx、表格
-- 示例："生成一个Excel表格"
-
-## 依赖安装
-
-```bash
-# Python 依赖
-pip install python-docx python-pptx pypdf openpyxl
-
-# Node.js 依赖
-npm install docx pptxgenjs
-```
-
-## 创建时间
-
-2026-03-09
+- 2026-03-09: 初始版本，包含20个技能
 
 ## 作者
 
